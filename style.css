@@ -2,12 +2,12 @@
 
 body {
   font-family: "Playfair Display", serif;
-  min-height: 2000px;
+  min-height: 5000px;
 }
 
 .jumbotron {
   background-color: #7cba89;
-  padding-top: 2rem;
+  padding-top: 4rem;
 }
 
 .content {
@@ -23,7 +23,7 @@ body {
   height: 2rem;
 }
 
-.img1 {
-  height: 25rem;
-  padding-left: 7rem;
+.activity {
+  background-color: #7cba89;
+  padding-top: 4rem;
 }
