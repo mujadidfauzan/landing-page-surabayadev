@@ -39,7 +39,7 @@
         </div>
       </div>
     </nav>
-    <!-- Navbar -->
+    <!-- End Navbar -->
 
     <!-- Hero Section -->
     <section class="jumbotron">
@@ -52,9 +52,45 @@
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quasi numquam excepturi veniam dolorem saepe placeat quia nihil eligendi accusantium velit in ipsum consequuntur voluptatum nulla quas veritatis iste odit, dolorum
               ex quis voluptatem. Vero nostrum maiores quo libero? Accusamus doloribus, porro alias veritatis laborum enim molestiae odio illo aperiam!
             </p>
-            <div class="btn-group btn-group-lg" role="group" aria-label="...">
-              <button type="button" class="btn btn-outline-dark">Let's Join Us!</button>
+            <!-- Modal -->
+            <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#Modal">Join Us!</button>
+
+            <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4 class="modal-title" id="exampleModalLabel">Registration</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <!-- Form -->
+                    <form>
+                      <div class="mb-3">
+                        <label for="name" class="form-label">Nama Lengkap</label>
+                        <input type="text" class="form-control" id="name" aria-describedby="name" />
+                      </div>
+                      <div class="mb-3">
+                        <label for="umur" class="form-label">Umur</label>
+                        <input type="text" class="form-control" id="umur" aria-describedby="umur" />
+                      </div>
+                      <div class="mb-3">
+                        <label for="Alamat" class="form-label">Alamat</label>
+                        <input type="text" class="form-control" id="Alamat" aria-describedby="Alamat" />
+                      </div>
+                      <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="email" />
+                      </div>
+                    </form>
+                    <!-- End Form -->
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-success">Join</button>
+                  </div>
+                </div>
+              </div>
             </div>
+            <!-- End Modal -->
           </div>
           <div class="col-md-6">
             <img src="img/img1.png" class="img-fluid ps-4" alt="image1" />
@@ -109,7 +145,7 @@
         </div>
         <div class="row pt-3">
           <div class="col-md">
-            <div class="card" style="width: 15rem">
+            <div class="card">
               <img src="img/collab.jpg" class="card-img-top" alt="collab" />
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
@@ -118,7 +154,7 @@
             </div>
           </div>
           <div class="col-md">
-            <div class="card" style="width: 15rem">
+            <div class="card">
               <img src="img/meet.jpg" class="card-img-top" alt="meet" />
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
@@ -127,7 +163,7 @@
             </div>
           </div>
           <div class="col-md">
-            <div class="card" style="width: 15rem">
+            <div class="card">
               <img src="img/seminar.jpg" class="card-img-top" alt="seminar" />
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
@@ -136,7 +172,7 @@
             </div>
           </div>
           <div class="col-md">
-            <div class="card" style="width: 15rem">
+            <div class="card">
               <img src="img/seminar.jpg" class="card-img-top" alt="seminar" />
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
