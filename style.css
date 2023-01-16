@@ -1,16 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
-
-body {
-  font-family: "Playfair Display", serif;
-}
-
-.jumbotron {
+#jumbotron {
   background-color: #7cba89;
-  padding-top: 4rem;
-}
-
-.content {
-  padding-left: 6rem;
+  padding-top: 5rem;
 }
 
 .nav-link {
@@ -22,11 +12,15 @@ body {
   height: 2rem;
 }
 
-.activity {
+#activities {
   background-color: #7cba89;
   padding-top: 4rem;
 }
 
-.page-footer {
+#page-footer {
   background-color: #7cba89;
+}
+
+#about {
+  padding-top: 5rem;
 }
