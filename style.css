@@ -2,7 +2,6 @@
 
 body {
   font-family: "Playfair Display", serif;
-  min-height: 5000px;
 }
 
 .jumbotron {
@@ -26,4 +25,8 @@ body {
 .activity {
   background-color: #7cba89;
   padding-top: 4rem;
+}
+
+.page-footer {
+  background-color: #7cba89;
 }
